@@ -1,0 +1,85 @@
+
+.form{
+    background-color: rgb(161, 186, 48);
+    border: 20px solid rgb(161, 186, 48);
+    border-radius: 5px;
+    margin: 2.5em 8em;
+}
+
+.form-btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.form-input-box{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.title-amount{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    /* padding: .4rem; */
+}
+
+label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title{
+    width: 25vw;
+    height: 2rem;
+    padding: .4rem;
+    
+}
+
+.amount{
+    width: 25vw;
+    height: 2rem;
+    padding: .4rem;
+
+}
+
+.date{
+    width: 30%;
+    height: 2rem;
+    font-size: 1.3rem;
+    /* margin-top: 2rem; */
+    padding: .4rem;
+    margin-left: .5em;
+}
+
+.add-expense-btn{
+    border-radius: 10px;
+    margin-top: 1rem;
+    width: 40%;
+    height: 10vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: white;
+    color: green;
+    box-shadow: 0 0 2px black;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.add-expense-btn:hover{
+    color: black;
+    background-color: green;
+    color: white;
+    transition: .1s ease-out;
+}
